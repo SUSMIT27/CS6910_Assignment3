@@ -129,7 +129,7 @@ Only change in the sweeps of attention and without attention is number of layers
 After doing this in main file there is one more file to store the results of the test data on github repository
 <br>
 <br>
-<b>Heatmap Code< : this can also me changed similarly as main iypnb file and run in same manner/b>
+<b>Heatmap Code : this can also me changed similarly as main iypnb file and run in same manner</b>
 One more file which is also a .iypnb file to display the heatmaps on <b> English Word </b> and <b> Hindi Word</b>
 
 <b>END</b>
