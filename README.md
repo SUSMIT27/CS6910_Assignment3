@@ -58,7 +58,7 @@ Y_test = CSV_file_test.iloc[:, 1].values
 print(" f1 Number of training samples: ", len(X_train))
 print("f1 Number of test samples: ", len(X_test))
 ```
-<b> Then you can RUN the file either on run buttton of notebook or 
+<b> Then you can RUN the file either on run button of notebook or 
   python file_name.py on pc </b><br>
 <b> Recommended : </b>  to run on notebooks online provide option of GPU which is important requirement of this code.  
   
@@ -120,6 +120,16 @@ The following are the hyperparameter which wandb agent changed and plotted graph
 ![Hyper_parameter_Configuration](w_oattention.JPG)
 
 Only change in the sweeps of attention and without attention is number of layers in encoder and decoder is 1 as the option given in assignment guidelines
-<h3>Best accuray found with attention : <b> ~ 34 % </b></h3>
+<h3>Best accuray found with attention : <b> ~ 42 % </b></h3>
 
-![Hyper_parameter_Configuration](w_oattention.JPG)
+![Hyper_parameter_Configuration](wattention.JPG)
+
+<hr>
+<h3> Vanilla Predictions and Attention Predictions </h3> 
+After doing this in main file there is one more file to store the results of the test data on github repository
+<br>
+<br>
+<b>Heatmap Code< : this can also me changed similarly as main iypnb file and run in same manner/b>
+One more file which is also a .iypnb file to display the heatmaps on <b> English Word </b> and <b> Hindi Word</b>
+
+<b>END</b>
