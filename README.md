@@ -58,6 +58,11 @@ Y_test = CSV_file_test.iloc[:, 1].values
 print(" f1 Number of training samples: ", len(X_train))
 print("f1 Number of test samples: ", len(X_test))
 ```
+<b> Then you can RUN the file either on run buttton of notebook or 
+  python file_name.py on pc </b><br>
+<b> Recommended : </b>  to run on notebooks online provide option of GPU which is important requirement of this code.  
+  
+
 <h3> WANDB</h3>
 For training purpose I used different parameters to learn better weights and used wandb to capture that :
 <a href="https://drive.google.com/file/d/1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw/view">Wandb Report</a> <br>
@@ -110,5 +115,11 @@ The following are the hyperparameter which wandb agent changed and plotted graph
 
 ```
 
-<h3>Best accuray found without attention</h3>
-![Hyper_parameter_Configuration]()
+<h3>Best accuray found without attention : <b> ~ 34 % </b></h3>
+
+![Hyper_parameter_Configuration](w_oattention.JPG)
+
+Only change in the sweeps of attention and without attention is number of layers in encoder and decoder is 1 as the option given in assignment guidelines
+<h3>Best accuray found with attention : <b> ~ 34 % </b></h3>
+
+![Hyper_parameter_Configuration](w_oattention.JPG)
