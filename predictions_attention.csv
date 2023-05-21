@@ -1,4 +1,4 @@
-Input Word,True Output,My Decoded Output,Matching or Not
+Input Word,True Output,Trained model output,Matched/ Not Matched
 thermax,थरमैक्स,थर्मैक्स,No
 sikhaaega,सिखाएगा,सिखाएगा,Yes
 learn,लर्न,ल्यरन,No
